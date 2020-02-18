@@ -1,5 +1,21 @@
 # 阴阳历日期转换比较以及节假日判断和获取
 
+示例:判断是否传统节假日
+````php
+    var_dump((new Lunar)->getFestival(2020, 01, 25));
+    // OUTPUT
+   /** array(4) {
+      ["is"]=>
+      bool(true)
+      ["type"]=>
+      int(0)
+      ["info"]=>
+      string(6) "春节"
+      ["wish"]=>
+      string(48) "春回大地风光好，福满人间喜事多。"
+    }
+    **/
+````
 
 * **public function convertSolarToLunar($year, $month, $date)**\
 将阳历转换为阴历\
@@ -85,5 +101,17 @@
 判断是否传统节假日
 ````php
     var_dump((new Lunar)->getFestival(2020, 01, 25));
+    // OUTPUT
+   /** array(4) {
+      ["is"]=>
+      bool(true)
+      ["type"]=>
+      int(0)
+      ["info"]=>
+      string(6) "春节"
+      ["wish"]=>
+      string(48) "春回大地风光好，福满人间喜事多。"
+    }
+    **/
 ````
  
