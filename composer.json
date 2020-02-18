@@ -1,14 +1,13 @@
 {
-    "name": "bobby/lunar",
-    "description": "阴阳历日期转换比较以及节假日判断和获取",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "bobby",
-            "email": "995933447@qq.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "bobby/lunar",
+  "description": "阴阳历日期转换比较以及节假日判断和获取,使用简单",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bobby",
+      "email": "995933447@qq.com"
+    }
+  ],
+  "minimum-stability": "stable"
 }
