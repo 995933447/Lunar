@@ -9,5 +9,10 @@
       "email": "995933447@qq.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Bobby\\Lunar\\": "src/"
+    }
+  },
   "minimum-stability": "stable"
 }
